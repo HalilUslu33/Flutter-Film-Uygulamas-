@@ -79,6 +79,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 childAspectRatio: 2 / 3.5,
               ),
               itemBuilder: (context, indeks){
+
                 var film = filmlerListesi[indeks];
 
                 return GestureDetector(
